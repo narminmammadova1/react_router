@@ -1,0 +1,33 @@
+.laysDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttonDiv{display: flex;
+    gap: 10px;
+    flex-direction: row;
+
+}
+.buttonDiv button {
+background-color: green;  
+color: white; 
+border-radius: 5px;
+}
+.addLays{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.laysContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mainContent{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

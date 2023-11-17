@@ -1,0 +1,10 @@
+.homeMain{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.homeMain img{
+    object-fit: cover;
+    width: 50%;
+    height: 30%;
+}

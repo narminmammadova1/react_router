@@ -1,8 +1,5 @@
 import React from 'react'
-import {Link, Routes,Route } from 'react-router-dom'
-import { Lays } from '../Lays/Lays'
-import { Cola } from '../Cola/Cola'
-import { Soda } from '../Soda/Soda'
+import {Link } from 'react-router-dom'
 import styles from "./Products.module.css"
 export const products={
     product1:"/images/Soda.jfif",
@@ -38,14 +35,7 @@ export const Products = () => {
 </Link>
      </div>
 
-     <Routes>
-        <Route>
-        <Route path='soda' element={<Soda/>}></Route>
-        <Route path='cola' element={<Cola/>}></Route>
-        <Route path='lays' element={<Lays/>}></Route>
-
-        </Route>
-     </Routes>
+   
     </div>
     </>
   )

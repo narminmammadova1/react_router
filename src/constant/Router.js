@@ -6,8 +6,10 @@ export const ROUTER ={
    PRODUCTS:"/products",
    LAYS:"/products/lays",
    SODA:"/products/soda",
-   COLA:"/products/cola"
-
+   COLA:"/products/cola",
+CALCULATOR:"/calculator",
+ADDITION:"/calculator/addition/:num1/:num2",
+SUBTRACTION:"/calculator/subtraction/:num1/:num2" 
    }
    
    

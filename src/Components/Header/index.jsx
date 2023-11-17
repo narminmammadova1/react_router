@@ -23,6 +23,8 @@ const {pathname}=useLocation()
   <li className={activeLink(ROUTER.ABOUT,pathname) ? "active": ""} onClick={()=>navigate(ROUTER.ABOUT)}>About</li>
   <li className={activeLink(ROUTER.CONTACT,pathname) ? "active" : ""} onClick={()=>navigate(ROUTER.CONTACT)}>Contact</li>
   <li className={activeLink(ROUTER.PRODUCTS,pathname) ? "active" : ""} onClick={()=>navigate(ROUTER.PRODUCTS)}>Our Products</li>
+  <li className={activeLink(ROUTER.CALCULATOR,pathname) ? "active" : ""} onClick={()=>navigate(ROUTER.CALCULATOR)}>Calculator</li>
+
 </ul>
     </div>
   )

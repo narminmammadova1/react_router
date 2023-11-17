@@ -11,6 +11,9 @@ import { ContactDetail } from './Pages/ContactDetail/ContactDetail';
 import { Lays } from './Pages/Lays/Lays';
 import { Soda } from './Pages/Soda/Soda';
 import { Cola } from './Pages/Cola/Cola';
+import { Calculator } from './Pages/Calculator/Calculator';
+import { Addition } from './Pages/Addition/Addition';
+import { Subtraction } from './Pages/Subtraction/Subtraction';
 function App() {
   return (
    <>
@@ -26,6 +29,9 @@ function App() {
 <Route path={ROUTER.SODA} element={<Soda/>}/>
 <Route path={ROUTER.COLA} element={<Cola/>}/>
 
+<Route path={ROUTER.CALCULATOR } element={<Calculator/>}/>
+<Route path={ROUTER.ADDITION } element={<Addition/>}/>
+<Route path={ROUTER.SUBTRACTION } element={<Subtraction/>}/>
 
    </Routes>
    
